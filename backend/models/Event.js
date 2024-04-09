@@ -8,4 +8,4 @@ const userSchema = new mongoose.Schema({
     description: String
 });
 
-module.exports = mongoose.model('Event', userSchema);
+export default mongoose.model('Event', userSchema);
